@@ -1,12 +1,12 @@
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
+import Chatbot from "./components/ChatBot";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="">
-      
+      <Chatbot/>
     </div>
   )
 }
