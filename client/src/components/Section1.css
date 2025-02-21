@@ -298,3 +298,40 @@ body {
   .slider-dot.active {
     background: #4f46e5;
   }
+
+  @media (max-width: 768px) {
+    .hero-animation {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-heading {
+      font-size: 1.5rem; /* Adjust as needed */
+    }
+  
+    .hero-subtext {
+      font-size: 1rem; /* Adjust as needed */
+    }
+  
+    .hero-buttons button {
+      font-size: 0.9rem; /* Make buttons text smaller */
+      padding: 8px 16px; /* Reduce button padding */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .greeting-text {
+      font-size: 1rem; /* Reduce font size for mobile */
+    }
+  
+    .user-name {
+      font-size: 1.1rem; /* Slightly larger for emphasis */
+    }
+  
+    .greeting-box {
+      padding: 8px 12px; /* Reduce padding for better spacing */
+    }
+  }
+  
+  

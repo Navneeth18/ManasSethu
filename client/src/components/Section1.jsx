@@ -156,7 +156,7 @@ function Section1() {
             <button className="btn-outline">Learn More</button>
           </div>
         </div>
-        <div className="hero-animation">
+        <div className="hero-animation ">
           <div className="animation-circle">
             <div className="hero-animation">
               <Lottie animationData={animationData} loop={true} />
